@@ -361,7 +361,10 @@ p {
 }
 
 .RightContent {
-	overflow: auto;
+	/*overflow: auto;*/
+	float: right;
+	margin: 0;
+	padding: 0;
 }
 
 @media (min-width: 1200px) {
@@ -371,10 +374,12 @@ p {
 }
 
 .split-image-left {
-	background-size: cover;
+/*	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 100vh;
+	height: 100vh;*/
+	padding-top: 10rem;
+	padding-bottom: 10rem;
 }
 
 .background-1 {
