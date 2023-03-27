@@ -24,11 +24,18 @@ body {
 	border-radius: 0;
 }
 
-a:link,
-a:hover,
 a:visited {
 	text-decoration: none;
 	color: #000;
+}
+
+a:link {
+	text-decoration: none;
+	color: #212B2B;
+}
+
+a:hover {
+	text-decoration: underline;
 }
 
 a:link.white,
